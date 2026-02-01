@@ -9,6 +9,7 @@ public class Main {
     // to see how IntelliJ IDEA suggests fixing it.
     System.out.printf("Hello and welcome!");
    newFeature();
+   goodBye();
   }
 
   private static void newFeature() {
@@ -18,8 +19,12 @@ public class Main {
         System.out.println("value : " + i);
         break;
       }
-      System.out.println("value : " + i);
+        System.out.println("Else value : " + i);
       i++;
     }
+  }
+
+  private static void goodBye() {
+    System.out.println("good bye..!");
   }
 }
