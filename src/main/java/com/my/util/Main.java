@@ -9,7 +9,6 @@ public class Main {
     // to see how IntelliJ IDEA suggests fixing it.
     welcome();
     hi();
-    guys();
    newFeature();
    goodBye();
   }
@@ -34,12 +33,8 @@ public class Main {
     System.out.println("hi..!");
   }
 
-  private static void guys() {
-    System.out.println("guys..!");
-  }
-
   private static void welcome() {
-    System.out.println("welcome!");
+    System.out.printf("Hello and welcome!");
   }
 
 }
