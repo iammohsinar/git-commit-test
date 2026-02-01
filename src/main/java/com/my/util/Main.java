@@ -10,6 +10,10 @@ public class Main {
     System.out.printf("Hello and welcome!");
     int i = 1;
     while (i <= 15) {
+      if(i == 7) {
+        System.out.println("value : " + i);
+        break;
+      }
       System.out.println("value : " + i);
       i++;
     }
