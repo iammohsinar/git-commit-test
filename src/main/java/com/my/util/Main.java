@@ -8,6 +8,10 @@ public class Main {
     //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
     // to see how IntelliJ IDEA suggests fixing it.
     System.out.printf("Hello and welcome!");
+   newFeature();
+  }
+
+  private static void newFeature() {
     int i = 1;
     while (i <= 15) {
       if(i == 7) {
@@ -17,7 +21,5 @@ public class Main {
       System.out.println("value : " + i);
       i++;
     }
-
-
   }
 }
